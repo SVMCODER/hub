@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>SVM CODER HUB</title>
+</head>
+<body>
+<header>
+    <div class="tab-bar">
+        <div class="tab current">
+          <i class='bx bx-home-alt-2' ></i>
+          <span>Home</span>
+        </div>
+        <div class="tab">
+          <i class='bx bxl-html5' ></i>
+          <span onclick="code()">HTML</span>
+        </div>
+        <div class="tab">
+          <i class='bx bx-folder' ></i>
+          <span onclick="files()">Files</span>
+        </div>
+        <div class="tab">
+            <i class='bx bx-code-alt' ></i>
+            <span onclick="learn()">Learn</span>
+          </div>
+          <div class="tab">
+            <i class='bx bx-info-circle' ></i>
+            <span onclick="info()">Information</span>
+          </div>
+        <div class="tab">
+          <i class='bx bx-user'></i>
+          <span id="name" onclick="account()">Account</span>
+        </div>
+      </div>
+</header>
+<script src="server.js">
+</script>
+</body>
+</html>
