@@ -7,37 +7,38 @@
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <title>SVM CODER HUB</title>
+    <title>SVM CODER HUB | HOME</title>
 </head>
 <body>
 <header>
     <div class="tab-bar">
-        <div class="tab current">
-          <i class='bx bx-home-alt-2' ></i>
-          <span>Home</span>
-        </div>
         <div class="tab">
-          <i class='bx bxl-html5' ></i>
+          <i class='bx bxl-html5' onclick="code()" ></i>
           <span onclick="code()">HTML</span>
         </div>
         <div class="tab">
-          <i class='bx bx-folder' ></i>
-          <span onclick="files()">Files</span>
+          <i class='bx bx-folder' onclick="project()" ></i>
+          <span onclick="project()">Projects</span>
         </div>
         <div class="tab">
-            <i class='bx bx-code-alt' ></i>
+            <i class='bx bx-code-alt' onclick="learn()" ></i>
             <span onclick="learn()">Learn</span>
           </div>
-          <div class="tab">
-            <i class='bx bx-info-circle' ></i>
-            <span onclick="info()">Information</span>
-          </div>
         <div class="tab">
-          <i class='bx bx-user'></i>
-          <span id="name" onclick="account()">Account</span>
+          <i class='bx bx-user' onclick="profile()"></i>
+          <span id="name" onclick="profile()">Login</span>
         </div>
       </div>
 </header>
+<h1>SVM CODER HUB</h1>
+<br>
+<hr>
+<br>
+<p>A website made for SVM Public School students to help them learn coding and program on any Mobile Device</p>
+<br>
+<div class="imglol" align="center">
+  <img align="center" style="width: 70%; height: 60%;" src="https://cdn.cdnparenting.com/articles/2020/07/14221313/749038690-1024x700.webp" alt="">
+</div>
 <script src="server.js">
 </script>
 </body>
